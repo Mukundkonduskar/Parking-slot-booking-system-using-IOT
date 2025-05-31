@@ -1,0 +1,149 @@
+/* External CSS file - styles.css */
+
+.profileimage{
+  width: 100%;
+    height: 94.8vh;
+    background: url(profileimg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-contain {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 30px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: #fff;
+    border-radius: 20px;
+    padding: 25px 50px;
+  }
+  
+  .profile-head {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .profile-name,
+  .profile-email,
+  .profile-phne,
+  .profile-vehicle {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .reset_button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reset_button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+
+.logout_button {
+  background-color: #f44336; /* Red background color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  margin-top: 10px; /* Top margin */
+  margin-left: 116px;
+}
+
+.logout_button:hover {
+  background-color: #d32f2f; /* Darker red background color on hover */
+}
+/* Modal styles */
+.logout-modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  
+}
+
+.logout-modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+  color: #000000;
+  border-radius: 20px;
+  padding: 25px 50px;
+  
+}
+
+.logout-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.logout-modal-header h2 {
+  margin: 0;
+}
+
+.logout-modal-body {
+  margin-bottom: 20px;
+}
+
+.logout-modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logout-modal-footer .logout-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-modal-footer .logout-button-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.logout-modal-footer .logout-button-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.logout-modal-footer .logout-button-danger {
+  background-color: #dc3545;
+  color: white;
+}

@@ -1,0 +1,57 @@
+
+.reset-pass-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 0.7px solid #000000;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.reset-pass-inner {
+  text-align: center;
+}
+
+.form-group-reset {
+  margin-bottom: 10px;
+}
+
+.reset-pass-inner h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.close-button,
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 0; /* Adjusted padding */
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px; /* Equal width to input boxes */
+}
+
+.close-button:hover,
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.reset-email,
+.reset-pass,
+.reset-con {
+  width: 200px; /* Set input width to 100px */
+  padding: 8px;
+  border: 1px solid black;
+  margin-bottom: 10px; /* Bottom margin between inputs */
+}
+
+/* Placeholder opacity */
+.reset-email::placeholder,
+.reset-pass::placeholder,
+.reset-con::placeholder {
+  opacity: 0.7;
+}

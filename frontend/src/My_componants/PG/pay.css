@@ -1,0 +1,21 @@
+.PG{
+    height: 703px;
+}
+
+.button_pay{
+    position: relative;
+    top: 550px;
+    left: 870px;
+    padding: 10px 30px;
+    background-color: #dd0707;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 2px solid #dd0707;
+    transition: 0.3s;
+}
+
+.button_pay:hover {
+  background-color: transparent;
+}
